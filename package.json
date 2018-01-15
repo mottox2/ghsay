@@ -1,14 +1,13 @@
 {
   "name": "ghsay",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Command-line tools to send notifications to Google Home",
   "scripts": {
     "build": "babel src --out-dir lib"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "mottox2",
+  "license": "MIT",
   "dependencies": {
     "google-home-notifier": "^1.2.0",
     "minimist": "^1.2.0"
@@ -16,5 +15,6 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
-  }
+  },
+  "bin": "bin/ghsay.js"
 }
