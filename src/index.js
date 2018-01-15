@@ -1,11 +1,9 @@
 const googlehome = require('google-home-notifier')
 const language = 'ja'
 
-exports.say = message => {
+export default function say(message) {
   googlehome.device('Google-Home', language)
-  googlehome.notify(message, function(res) {
+  googlehome.notify(message, res => {
     console.log(res)
   })
 }
-
-say('Hello world')
