@@ -1251,20 +1251,20 @@ globals@^9.18.0:
   version "9.18.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.18.0.tgz#aa3896b3e69b487f17e31ed2143d69a8e30c2d8a"
 
-google-home-notifier@^1.2.0:
+"google-home-notifier@https://github.com/mottox2/google-home-notifier":
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/google-home-notifier/-/google-home-notifier-1.2.0.tgz#e3d762503b0bc5770a9de92be8533bbe19fff580"
+  resolved "https://github.com/mottox2/google-home-notifier#306b868635cf8603dcc039278641641b539dd380"
   dependencies:
     body-parser "^1.15.2"
     castv2-client "^1.1.2"
     express "^4.14.0"
-    google-tts-api "https://github.com/darrencruse/google-tts/tarball/british-voice"
+    google-tts-api "0.0.4"
     mdns "^2.3.3"
     ngrok "^2.2.4"
 
-"google-tts-api@https://github.com/darrencruse/google-tts/tarball/british-voice":
-  version "0.0.1"
-  resolved "https://github.com/darrencruse/google-tts/tarball/british-voice#3d67a0b5153fd70b13641c39d39ef3b9f8de6ec4"
+google-tts-api@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/google-tts-api/-/google-tts-api-0.0.4.tgz#76c6b73de3703cdca5a2cd211bc77e3f95585fe0"
   dependencies:
     isomorphic-fetch "^2.2.1"
 

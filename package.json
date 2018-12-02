@@ -9,7 +9,7 @@
   "author": "mottox2",
   "license": "MIT",
   "dependencies": {
-    "google-home-notifier": "^1.2.0",
+    "google-home-notifier": "https://github.com/mottox2/google-home-notifier",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
