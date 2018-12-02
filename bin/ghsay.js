@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const say = require('../lib/index.js').default
 const minimist = require('minimist')
 
